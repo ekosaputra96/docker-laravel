@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # === Configuration ===
-CONTAINER_NAME=""     # <-- Replace with your MariaDB container name
-DB_USER=""                           # <-- Replace with your MariaDB user
+CONTAINER_NAME="mysql1"     # <-- Replace with your MariaDB container name
+DB_USER="root"                           # <-- Replace with your MariaDB user
 DB_PASSWORD=""             # <-- Replace with your MariaDB root password
 SQL_DIR="$HOME"               # <-- Directory where .sql files are stored
 
